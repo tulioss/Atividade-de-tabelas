@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas 1</title>
+</head>
+
+<body style="display: flex; flex-direction: column; align-items: center; margin-top: 110px; ">
+        <table border="2" style="border-collapse: collapse; width: 400px;">
+            <thead>
+                <tr style="font-weight: bold;">
+                    <td style="border: 2px solid;">1</td>
+                    <td style="border: 2px solid;">2</td>
+                    <td style="border: 2px solid;">3</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr style="text-align: center; font-weight: bold">
+                    <td style="border: 2px solid;">4</td>
+                    <td style="border: 2px solid;">5</td>
+                    <td style="border: 2px solid;">6</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr style="text-align: end; font-weight: bold">
+                    <td style="border: 2px solid;">7</td>
+                    <td style="border: 2px solid;">8</td>
+                    <td style="border: 2px solid;">9</td>
+                </tr>
+            </tfoot>
+        </table>
+    
+        <table border="3" style="width: 400px; margin-top: 20px;">
+            <thead>
+                <tr style="font-weight: bold;">
+                    <td style="border: 2px solid;">1</td>
+                    <td style="border: 2px solid;">2</td>
+                    <td style="border: 2px solid;">3</td>
+                </tr>
+            </thead>
+
+            <tbody> 
+                <tr style="font-weight: bold;">
+                    <td colspan="3" style="text-align: center; border: 2px solid;">4</td>
+                </tr>      
+            </tbody>
+
+            <tfoot>
+                <tr style="font-weight: bold;">
+                    <td style="border: 2px solid;">7</td>
+                    <td style="border: 2px solid;">8</td>
+                    <td style="border: 2px solid;">9</td>
+                </tr>
+            </tfoot>
+        </table>
+    
+        <table border="4" style="border-style: inset; width: 400px; margin-top: 20px;">
+                <tr style="font-weight: bold;">
+                    <td style="border: 2px solid;">1</td>
+                    <td style="border: 2px solid;">2</td>
+                    <td rowspan="3" style="border: 2px solid; text-align: center;">3</td>
+                </tr>
+
+                <tr style="font-weight: bold;">
+                    <td colspan="2" style="text-align: center; border: 2px solid;">4</td>
+                </tr>
+
+                <tr style="font-weight: bold;">
+                    <td style="border: 2px solid;">5</td>
+                    <td style="border: 2px solid;">6</td>
+                </tr>
+        </table>
+</body>
+</html>
